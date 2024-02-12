@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors");
 require("dotenv").config();
 
-// middleware
+// middlewares
 const corsOptions = {
     origin: "http://localhost:3000" // frontend URI (ReactJS)
 }
