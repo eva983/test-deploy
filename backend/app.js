@@ -20,8 +20,8 @@ app.use((req, res, next) => {
   })
 
 // routes
-app.use('/api/workouts', workoutRoutes)
-app.use('/api/user', userRoutes)
+app.use('https://test-backend-xt6n.onrender.com/api/workouts', workoutRoutes)
+app.use('https://test-backend-xt6n.onrender.com/api/user', userRoutes)
 
 // connect MongoDB
 mongoose.connect(process.env.MONGO_URI).then(() => {
